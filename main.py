@@ -127,7 +127,8 @@ useragents=["AdsBot-Google ( http://www.google.com/adsbot.html)",
 			"Mozilla/5.0 (compatible; MSIE 10.6; Windows NT 6.1; Trident/5.0; InfoPath.2; SLCC1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727) 3gpp-gba UNTRUSTED/1.0",
 			"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
 			"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; Trident/5.0)",
-			"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; WOW64; Trident/5.0)",
+			"Mozilla/5.0 (compatible; MSIE 9.0; Windows "
+			"NT 6.2; WOW64; Trident/5.0)",
 			"Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0)",
 			"Mozilla/5.0 (compatible; Yahoo! Slurp China; http://misc.yahoo.com.cn/help.html)",
 			"Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)",
@@ -567,6 +568,7 @@ def numthreads():
 		threads = 800
 		print ("800 threads selected.\n")
 	multiplication()
+
 
 def multiplication():
 	global multiple
