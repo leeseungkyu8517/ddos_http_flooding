@@ -8,10 +8,11 @@ import os
 import sys
 
 
+
 print('start my dos')
 
 
-#    http://localhost:8000/testserver.html
+#    http://localhost:8000/seeya.html
 
 useragents=["AdsBot-Google ( http://www.google.com/adsbot.html)",
 			"Avant Browser/1.2.789rel1 (http://www.avantbrowser.com)",
